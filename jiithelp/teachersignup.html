@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="validation.js"></script>
+  <title>teacher sign up page</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4">
+  </div>
+  <div class="col-md-4">
+<div style="margin-top:20px;">
+  <h2 style="text-align:center;"><u>SIGN UP</u></h2>
+  <br>
+  <form role="form" method="post" action="tsignup.php" onSubmit="return vali()">
+    <div class="form-group">
+      <label for="First name">Full Name:</label>
+      <input type="name" class="form-control" name="t1" id="t1" placeholder="Name">
+    </div>
+	<div class="form-group">
+      <label for="department">Department:</label><br>
+     <input type="radio" name="t2" value="CSE"> CSE
+  <input type="radio" name="t2" value="ECE"> ECE
+  <input type="radio" name="t2" value="BIOTECH"> BIOTECH
+    </div>
+	<div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" name="t3" placeholder="Enter email">
+    </div>
+	<div class="form-group">
+      <label for="pwd">Webkiosk Password:</label>
+      <input type="password" class="form-control" name="t4" id="t4" placeholder="Enter webkiosk password">
+    </div>
+	<div class="form-group">
+      <label for="Mobile no.">Contact No.:</label>
+      <input type="number" class="form-control" name="t5" id="t5"  placeholder="Contact no.">
+    </div>
+	 <input type="submit" class="btn btn-default" name="submit" id="submit" value="submit"></button>
+  </form>
+  </div>
+  </div>
+  </body>
+  </html>
